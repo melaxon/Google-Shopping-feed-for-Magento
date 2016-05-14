@@ -29,7 +29,7 @@ $weight_unit = 'kg';
 2nd step - fields mapping
 
 on the left side of this code change the attribute IDs as per your magento settings:
-
+<pre>
 $g_params_mapping = array(
 'id' 						=> 'sku',
 'title' 					=> 'name',
@@ -54,7 +54,7 @@ $g_params_mapping = array(
 'shipping_weight'			=> 'weight',
 'item_group_id'				=> '',
 .....
-
+</pre>
 You're done!
 
 
