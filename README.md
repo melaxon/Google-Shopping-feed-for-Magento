@@ -13,7 +13,7 @@ You can setup the crontab to hit php file regularly to update your xml feed
 
 Settings:
 1st step
-
+<pre>
 Open the file in text editor and modify the settings:
 $url_path = 'on'; //(@$_GET['url_path'] == "on") ? "on" : "off"; set to 'on' to get rid of ?___store= in multistore shop
 $store = 'english'; // your ID. Ignore it if you have only one store
@@ -25,7 +25,7 @@ $availability_days = 5; // number of days for preordered items to get available
 $use_cdata = 'on'; //whether to enclose values into <![CDATA[...]] or escape with htmlspecialchars when calling cdata() function
 $force_mpn = 'on'; // If mpn is empty then sku will be inserted
 $weight_unit = 'kg';
-
+</pre>
 2nd step - fields mapping
 
 on the left side of this code change the attribute IDs as per your magento settings:
