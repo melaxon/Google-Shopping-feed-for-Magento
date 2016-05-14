@@ -13,8 +13,10 @@ You can setup the crontab to hit php file regularly to update your xml feed
 
 Settings:
 1st step
-<pre>
+
 Open the file in text editor and modify the settings:
+<pre>
+
 $url_path = 'on'; //(@$_GET['url_path'] == "on") ? "on" : "off"; set to 'on' to get rid of ?___store= in multistore shop
 $store = 'english'; // your ID. Ignore it if you have only one store
 $use_Short_description = false;// use full (false) or short (true) description
